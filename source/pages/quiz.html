@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="author" content="Caio Cavalcante">
     <meta name="keywords" content="html, desenvolvimento, web">
-    <meta name="description" content="Informações pessoais">
+    <meta name="description" content="quiz divertido">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Quiz!</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
@@ -23,11 +23,33 @@
             <li><a href="profissional.html">Profissional</a></li>
             <li><a href="educacao.html">Educação</a></li>
             <li><a href="pessoal.html">Pessoal</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
         </ul><hr>
     </nav>
 
     <section id="quiz">
-        <!-- aqui vou fazer um quiz usando form. Serão questões simples e dará resposta e resultado na hora -->
+        <form action="#" id="quiz-form" >
+            <label for="q1">Qual seu nome?</label>
+            <input type="text" id="q1" name="q1" placeholder="nome" maxlength="22">
+
+            <br><br>
+            <input type="radio" name="robot" id="robotCheck" value="sim">
+            <label for="robotCheck">Não sou um robô.</label>
+
+            <div id="q2-container">
+                <br>
+                <label for="q2"><span id="userName"></span>, biscoito ou bolacha?</label>
+                <select id="q2" name="q2">
+                    <option value="" disabled selected>Escolha uma opção</option>
+                    <option value="biscoito">biscoito</option>
+                    <option value="bolacha">bolacha</option>
+                </select>
+                <p id="feedback-message"></p>
+            </div>
+            
+            <br><br>
+            <button id="feedback-button">Tô certo</button>
+        </form>
     </section>
 
     <footer>
@@ -37,5 +59,7 @@
         
         <h5>Todos os direitos reservados. <br> Desenvolvido por Caio Cavalcante.</h5>
     </footer>
+
+    <script src="../scripts/quiz.js"></script>
 </body>
 </html>
