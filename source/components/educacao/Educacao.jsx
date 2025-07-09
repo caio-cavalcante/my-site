@@ -14,7 +14,7 @@ function Educacao(){
 
             <section id="horario"> {/* significado das siglas */}
                 <h4>Meu horário esse semestre</h4>
-                <table align="center" bgcolor="lightblue">
+                <table align="center">
                     <tr>
                         <th>Horário</th>
                         <th>SEG</th>
@@ -44,11 +44,11 @@ function Educacao(){
             
                     <tr align="center">
                         <td>15:00 - 15:10</td>
-                        <td>-------</td>
-                        <td>-------</td>
-                        <td>-------</td>
-                        <td>-------</td>
-                        <td>-------</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
+                        <td>-----</td>
                     </tr>
             
                     <tr align="center">
