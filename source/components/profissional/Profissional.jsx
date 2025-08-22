@@ -23,7 +23,10 @@ function Profissional(){
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
-                            <li>NodeJS</li>
+                            <ul>
+                                <li>NodeJS</li>
+                                <li>React</li>
+                            </ul>
                             <li>PHP</li>
                         </ul>
                     <li>MySQL</li>
